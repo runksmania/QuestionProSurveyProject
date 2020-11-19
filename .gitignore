@@ -110,5 +110,5 @@ token.pickle
 /__pycache__
 credentials.json
 errors.txt
-answer_replacements.csv
+#answer_replacements.csv
 spreadsheet_ids.csv

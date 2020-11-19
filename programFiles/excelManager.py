@@ -29,6 +29,12 @@ headerColumns = {
     'Respondent Email': ['E8', 'F8'],
 }
 
+abnormalColumns = {
+    'Other' : 1,
+    'Not Listed': 1,
+    'Dynamic Comment': 1
+}
+
 
 def getAnswer(answer, colName, answerDict):
 
@@ -91,6 +97,9 @@ def exportData(filepath, surveyName, lastUpdated, columnDict, answerDict, data, 
 
                 for colName, v in columnDict.items():
 
+                    if colName == 'What gender do you identify as?' or colName == 'Were you laid off from your job in the last year due to a disaster? (From the results of one of the major fires or from COVID-19 shelter-in-place orders)':
+                        print()
+
                     if colName in headerColumns:
 
                         # If column is a header column print it and its answer in the appropriate spot.
@@ -116,7 +125,7 @@ def exportData(filepath, surveyName, lastUpdated, columnDict, answerDict, data, 
 
                                     # Check to make sure answers are not blank and if subcolumn is other.
                                     # Other is printed differently by questionPro than other subcolumns.
-                                    if subColumnName == 'Other' and i[v[0] + j + 1] != '' and i[v[0] + j + 1] != ' ' and len(subColList) == 1:
+                                    if subColumnName in abnormalColumns and i[v[0] + j + 1] != '' and i[v[0] + j + 1] != ' ' and len(subColList) == 1:
 
                                         if i[v[0] + j + 1] != '' or i[v[0] + j + 1] != ' ':
                                             dataAdded = True
@@ -134,7 +143,7 @@ def exportData(filepath, surveyName, lastUpdated, columnDict, answerDict, data, 
                                                   str(row)] = getAnswer(i[v[0] + j + 1], subColumnName, answerDict)
                                             row += 1
 
-                                    elif subColumnName == 'Other' and len(subColList) == 1:
+                                    elif subColumnName in abnormalColumns and len(subColList) == 1:
 
                                         if i[v[0]] != '' or i[v[0]] != ' ':
                                             dataAdded = True

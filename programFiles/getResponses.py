@@ -1,8 +1,8 @@
 import os
 import sys
 from googleapiclient.discovery import build
-from checkCredentials import checkCredentials
-from columnConversion import columnToLetter
+from programFiles.columnConversion import columnToLetter
+from pathlib import Path
 
 
 def getResponses(creds):
@@ -17,11 +17,11 @@ def getResponses(creds):
 
     if creds.valid:
 
-        if os.path.exists('spreadsheet_ids.csv'):
+        if os.path.exists(os.path.abspath('./resourceFiles/spreadsheet_ids.csv')):
             data = []
 
             # Grab sheet ids from file.
-            with open('spreadsheet_ids.csv', 'r') as inputFile:
+            with open(os.path.abspath('./resourceFiles/spreadsheet_ids.csv'), 'r') as inputFile:
                 lines = inputFile.readlines()
 
                 for i in range(len(lines)):

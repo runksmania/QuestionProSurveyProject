@@ -30,6 +30,9 @@ def getColLoc(columnList, subColumnList):
     while i < (len(columnList)):
         colName = columnList[i]
 
+        if i == 337:
+            print()
+
         # Check if its a column we don't want to skip and push if it is.
         if colName not in colSkipDict:
             colNameSplit = columnList[i].split()
@@ -59,14 +62,14 @@ def getColLoc(columnList, subColumnList):
                     i = j - 1
 
             # The other sub column is positioned differently.  Check for it and push into array for key.
-            elif i < len(subColumnList) and subColumnList[i] == 'Other':
+            elif i < len(subColumnList) and (subColumnList[i] == 'Other' or subColumnList[i] == 'Not Listed' or subColumnList[i] == 'Dynamic Comment'):
                 back_count = i - 1
 
                 while columnList[back_count] == '':
                     back_count -= 1
 
                 if columnList[back_count] in colKeepDict:
-                    colKeepDict[columnList[back_count]][1].append('Other')
+                    colKeepDict[columnList[back_count]][1].append(subColumnList[i])
 
         i += 1
 
