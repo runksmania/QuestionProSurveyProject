@@ -108,6 +108,7 @@ token.pickle
 /surveys
 .vscode
 /__pycache__
+/programfiles/__pycache__
 credentials.json
 errors.txt
 #answer_replacements.csv
