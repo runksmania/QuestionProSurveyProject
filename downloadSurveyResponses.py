@@ -66,21 +66,23 @@ def responseManager(creds):
     for i in csvData:
         surveyId = i[0]
 
-        # Skip title line and create answer replacement dictionary.
-        if surveyId != 'spreadsheet id':
-            colName = i[1]
-            answerList = i[2].split(',')
-            replacementList = i[3].split(',')
+        if surveyId != "":
 
-            if i[4] == '1':
-                countyQuestionDict[surveyId] = colName
+            # Skip title line and create answer replacement dictionary.
+            if surveyId != 'spreadsheet id':
+                colName = i[1]
+                answerList = i[2].split(',')
+                replacementList = i[3].split(',')
 
-            if surveyId not in answerDict:
-                answerDict[surveyId] = {}
+                if i[4] == '1':
+                    countyQuestionDict[surveyId] = colName
 
-            if colName not in answerDict[surveyId]:
-                answerDict[surveyId][colName] = {
-                    answerList[j]: replacementList[j] for j in range(len(answerList))}
+                if surveyId not in answerDict:
+                    answerDict[surveyId] = {}
+
+                if colName not in answerDict[surveyId]:
+                    answerDict[surveyId][colName] = {
+                        answerList[j]: replacementList[j] for j in range(len(answerList))}
 
     data = getResponses(creds)
 

@@ -1,2 +1,47 @@
 spreadsheet id,column name,"answer list","replacement list",County Question (1 if yes, 0 if no)
 1UjPvBzWMZ1a8J1qqSaSg45Tb8v96arKfb2SjgVrNBkE,Please select the county that you live in. This will allow us to send your intake to the correct Case Manager.,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58","Alameda,Alpine,Amador,Butte,Calaveras,Colusa,Contra Costa,Del Norte,El Dorado,Fresno,Glenn,Humboldt,Imperial,Inyo,Kern,Kings,Lake,Lassen,Los Angeles,Madera,Marin,Mariposa,Mendocino,Merced,Modoc,Mono,Monterey,Napa,Nevada,Orange,Placer,Plumas,Riverside,Sacramento,San Benito,San Bernardino,San Diego,San Francisco,San Joaquin,San Luis Obispo,San Mateo,Santa Barbara,Santa Clara,Santa Cruz,Shasta,Sierra,Siskiyou,Solano,Sonoma,Stanislaus,Sutter,Tehama,Trinity,Tulare,Tuolumne,Ventura,Yolo,Yuba",1
+,Which Case Manager is assisting you? This will also assist us with sending your intake to the correct Case Manager."","",0
+,Do you live on a Reservation or Rancheria?"","",0
+,Household Type (Select All That Apply)"","",0
+,Housing Type"","",0
+,Please Select Any Housing Subsidies That You Are Receiving (Select All That Apply)"","",0
+,Are you the head of your household?�Your Household Includes Anyone That You Live With And Share Your Finances With (You Help Support Them And/Or They Help Support You),�Dont Include Anyone Who Rents A Room Or Who Are Otherwise Independent."","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 1"","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 2"","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 3"","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 4"","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 5"","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 6"","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 7"","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 8"","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 9"","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 10"","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 11"","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 12"","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 13"","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 14"","",0
+,List The Names And Birth Dates Of Every Person That Lives In Your Household.�Please Include Yourself and Everyone That You Share Finances With (You Help Support Them And/Or They Help Support You),�Don't Include Anyone Who Rents A Room Or Who Are Otherwise Independent. Person 15"","",0
+,What Is The Primary Language That You Speak?"","",0
+,What gender do you identify as?"","",0
+,Have you registered for selective service?"","",0
+,What Is Your Race(s)? (Select All That Apply)"","",0
+,Do You Have A Disabling Condition?"","",0
+,What Kind Of Health Insurance Do You Have, If Any? Indian Health Services does not count as insurance."","",0
+,What Is The Highest Education Level That You Have Completed? If You Select Up to 12th Grade That Means You Didnt Graduate High School or Receive a GED."","",0
+,What Is Your Military Status?"","",0
+,What Is Your Work Status?"","",0
+,Please Select Any Of These Non-Cash Benefits That You Are Receiving. (Select All That Apply)"","",0
+,Please select any of the areas that you want assistance with."","",0
+,Are you applying for a temporary job in the disaster recovery program? If you are unsure what this is, please ask your case manager."","",0
+,Were you laid off from your job in the last year due to a disaster? (From the results of one of the major fires or from COVID-19 shelter-in-place orders)"","",0
+,What Specifically Would You Like Assistance With?"","",0
+,Please attach any documents which support your request for assistance, such as a bill.�In order to upload more than one document, you need to click Browse and then control-click (or command-click on a Mac) on all documents you want to upload and upload them all at once."","",0
+,Please upload a picture or scan of your Tribal ID or other proof of your Native American lineage such as a blood quantum letter or evidence of your relation to an enrolled Tribal member.In order to upload more than one document, you need to click Browse and then control-click (or command-click on a Mac) on all documents you want to upload and upload them all at once."","",0
+,Please List Your Work History� Most recent Employment"","",0
+,Please List Your Work History� 2"","",0
+,Please List Your Work History� 3"","",0
+,Please List Your Work History� 4"","",0
+,Please List Your Work History� Oldest"","",0
+,Select Every Kind Of Income That Your Household Has Received In The Last Month.�You Are Required To Provide Proof Of All Income In Order To Receive Services And Will Be Asked To Upload Income Verification Documents In The Next Question.Please Make Sure To List How Long You Have Been Receiving Each Income (A Box Appears After You Make A Selection). If You Have No Sources Of Income Please Check No Income."","",0
+,Select Every Kind Of Income That Your Household Has Received In The Last Six Months.�You Are Required To Provide Proof Of All Income In Order To Receive Services And Will Be Asked To Upload Income Verification Documents In The Next Question.Please Make Sure To List How Long You Have Been Receiving Each Income (A Box Appears After You Make A Selection). If You Have No Sources Of Income Please Check No Income."","",0
+,Do you have any additional comments for your case manager?"","",0
